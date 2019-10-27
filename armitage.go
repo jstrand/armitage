@@ -72,7 +72,7 @@ func printUsage() {
 	fmt.Println("File copies are put in a directory called <files>.")
 	fmt.Println("A folder called <checksums> contains checksums of already copied files.")
 	fmt.Println("Changed or previously copied files are ignored (useful for copying photos/video).")
-	fmt.Println("Integrity of files can be checked with ```shasum --check ../checksums/*``` from the files folder")
+	fmt.Println("Integrity of files can be checked with 'shasum --check ../checksums/*' from the files folder")
 	fmt.Println()
 
 	fmt.Println("Usage:")
